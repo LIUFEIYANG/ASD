@@ -1,0 +1,11 @@
+prefix=/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl
+exec_prefix=/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl
+libdir=/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl/lib
+includedir=/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.4
+Libs: -L/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/iip/LFY/ASD-major-revision/reference_software/ASD-master-64a2f73ec4c21507959e50215eabfab3f62cbd97/source/lib/gsl/include
